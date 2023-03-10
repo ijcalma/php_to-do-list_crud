@@ -1,0 +1,116 @@
+.table{
+	padding: 15px;
+	width: 70%;
+	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
+	border-collapse: collapse;
+}
+th, td {
+	border-bottom: 1px solid lightgray;	
+	padding: 15px;
+}
+.add {
+	padding: 15px;
+	border: none;
+	margin-left: 990px;
+	text-decoration: none;
+	color: white;
+	background-color: green;
+	border-radius: 10px;
+}
+.add:hover{
+	color: white;
+	background-color: darkgreen;
+}
+
+.edit {
+	padding: 15px;
+	border: none;
+	color: white;
+	text-decoration: none;
+	background-color: blue;
+	border-radius: 10px;
+}
+.edit:hover{
+	color: white;
+	background-color: darkblue;
+}
+.delete {
+	padding: 15px;
+	border: none;
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	border-radius: 10px;
+}
+.delete:hover{
+	color: white;
+	background-color: darkred;
+}
+.addform{
+	margin-left: 500px;
+	margin-right: 500px;
+	padding: 25px;
+	padding-left:65px;
+	padding-top: 55px;
+	margin-top: 150px;
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
+}
+.editform{
+	margin-left: 500px;
+	margin-right: 500px;
+	padding: 25px;
+	padding-left:65px;
+	padding-top: 55px;
+	margin-top: 150px;
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
+}
+.submit{
+	padding: 15px;
+	border: none;
+	color: white;
+	background-color: green;
+	border-radius: 10px;
+	margin-left:271px;
+}
+.submit2{
+	padding: 15px;
+	border: none;
+	color: white;
+	background-color: blue;
+	border-radius: 10px;
+	margin-left:271px;
+}
+.submit:hover{
+	color: white;
+	background-color: darkgreen;
+}
+.submit2:hover{
+	color: white;
+	background-color: darkblue;
+}
+#task_name{
+	padding: 5px;
+	border-radius: 10px;
+}
+#task_description{
+	padding: 5px;
+	border-radius: 10px;
+}
+#task_due_date{
+	padding: 5px;
+	border-radius: 10px;
+}
+#task_status{
+	padding: 5px;
+	border-radius: 10px;
+}
+.link{
+	color: black;
+	margin-left: 110px;
+}
+.searchbtn:hover{
+	color: white;
+	background-color: black;
+}
