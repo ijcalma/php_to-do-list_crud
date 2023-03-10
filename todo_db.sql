@@ -29,7 +29,7 @@ CREATE TABLE `tasks` (
   `task_due_date` date DEFAULT NULL,
   `task_status` enum('incomplete','in progress','complete') DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,7 @@ CREATE TABLE `tasks` (
 
 LOCK TABLES `tasks` WRITE;
 /*!40000 ALTER TABLE `tasks` DISABLE KEYS */;
-INSERT INTO `tasks` VALUES (1,'Records App','Submit Records App','2023-03-14','incomplete'),(2,'PHP CRUD','do php cruds','2023-03-04','in progress'),(12,'PHP brocolli','push changes to repo','2023-03-08','complete');
+INSERT INTO `tasks` VALUES (1,'Records App','Submit Records App','2023-03-14','complete'),(2,'PHP CRUD','do php cruds','2023-03-04','in progress'),(12,'PHP brocolli','push changes to repo','2023-03-08','incomplete'),(19,'dishes','wash the dishes','2023-03-11','incomplete'),(20,'attend classes','wake up early and go to school at 7am','2023-03-13','incomplete'),(21,'capstone chapter 2','do the rrl for the capstone chapter 2','2023-03-11','in progress'),(22,'laboratory midterm','take php lab exam','2023-03-06','complete');
 /*!40000 ALTER TABLE `tasks` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-03-10 21:16:45
+-- Dump completed on 2023-03-10 22:18:40
